@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(12, 22, 26);
+    font-size: 16px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.container h1 {
+    padding: 2rem 0;
+}
+
+.container button {
+    width: 8rem;
+    padding: 1.3rem 2rem;
+    margin: 2rem 0;
+}
+
+/* CIRCLES */
+
+.container .squares {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30vw;
+    height: 30vw;
+}
+
+.container .square {
+    width: 50%;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: background-color .2s;
+}
+
+.container #square0 {
+    border: .5rem solid salmon;
+}
+    .container #square0.active {
+        background-color: salmon;
+    }
+
+.container #square1 {
+    border: .5rem solid mediumseagreen;
+}
+    .container #square1.active {
+        background-color: mediumseagreen;
+    }
+
+.container #square2 {
+    border: .5rem solid royalblue;
+}
+    .container #square2.active {
+        background-color: royalblue;
+}
+
+.container #square3 {
+    border: .5rem solid goldenrod;
+}
+    .container #square3.active {
+        background-color: goldenrod;
+    }
